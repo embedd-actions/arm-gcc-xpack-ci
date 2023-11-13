@@ -1,0 +1,10 @@
+version: '2'
+
+services:
+  arm-gcc:
+    container_name: arm-gcc
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - VERSION=12.3.1-1.1

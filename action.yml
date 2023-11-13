@@ -1,0 +1,13 @@
+name: 'ARM GCC build'
+description: 'Building arm projects'
+inputs:
+   command:
+     description: 'Command'
+     required: true
+     default: arm-none-eabi-gcc --version
+runs:
+  using: 'docker'
+  image: 'docker://sergeyladanov/arm-gcc:v12.3.1'
+  args:
+     - ${{ inputs.command }}
+ 
