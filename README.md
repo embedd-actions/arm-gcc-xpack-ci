@@ -14,7 +14,7 @@ jobs:
       - uses: actions/checkout@v3
         
       - name: make   
-        uses: embedd-actions/arm-gcc-ci@v12.3.1 
+        uses: embedd-actions/arm-gcc-xpack-ci@v12.3.1 
         with: 
           command: make --directory Release all
 
