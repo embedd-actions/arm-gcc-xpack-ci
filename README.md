@@ -4,7 +4,7 @@ Building arm-gcc projects with xpack compilator
 
 ## Usage:
 
-```
+```yml
 
 jobs:      
   build:
