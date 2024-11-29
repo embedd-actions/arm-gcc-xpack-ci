@@ -16,6 +16,7 @@ RUN ARCH="$(dpkg --print-architecture)" && \
     apt-get install \
     --no-install-recommends \
     make \
+    ninja-build \
     cmake \
     wget \
     ca-certificates \
