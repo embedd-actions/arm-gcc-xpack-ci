@@ -2,4 +2,5 @@
 
  . /etc/bashrc
 
-exec $@
+#exec $@
+exec bash -c "$@"
